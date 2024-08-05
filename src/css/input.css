@@ -4,3 +4,9 @@
 
 
 
+.link{
+    @apply hover:bg-white hover:text-first-color rounded-md px-2;
+}
+.active-link{
+    @apply bg-white text-first-color rounded-md px-2;
+}
