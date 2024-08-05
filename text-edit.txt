@@ -1,0 +1,130 @@
+
+---------Home---------
+
+title----
+   Bite The World of Cheesecake Wonders
+
+subtitle----
+    We always make our customer happy by providing
+as many choices as possible 
+
+buttons----
+ Get Started
+
+ Watch Demo
+ 
+
+
+--------About us--------
+
+title------
+    We Love Cheesecake
+
+subtitle-----
+    Discover Our Cheesecake Story
+
+description---
+    At Cheesecake Love, quality is our cornerstone. Each cheesecake is crafted with the finest ingredients, meticulous attention to detail, and a dash of creativity. 
+
+We believe in delivering not just desserts but moments of sheer indulgence.
+
+
+button-----
+    Read More
+
+
+-------Menu---------
+title-----
+    Our Menu 
+
+card one----
+    title-----
+        Blueberry Cheesecake
+    subtitle-----
+        Blueberry love, cheesecake delight!
+    price-----
+        $9.00
+
+card two----
+    title-----
+        Biscoff Cheesecake
+    subtitle-----
+        Biscoff adores cheesecake magic
+    price-----
+        $11.00
+
+card three----
+    title-----
+        Chocolate Cheesecake
+    subtitle-----
+        Cherish Chocolate, relish cheesecake magic!
+    price-----
+        $.10.00
+    
+
+
+-------Blogs--------
+title-----
+    Our Blog 
+
+subtitle-----
+    Our Recent Posts
+
+
+card one----
+    subtitle-----
+        23 Nov, 2023 / Cheesecake
+    
+    title-----
+        A Peek Behind the Cheesecake Curtain
+    
+    description-----
+        Step into our cheesecake haven, where the magic unfolds behind the scenes, whisking dreams into reality. Our kitchen is a symphony and very...
+    
+    button-----
+        Read More
+
+card two----
+    subtitle-----
+        18 July, 2023 / Cheesecake
+    
+    title-----
+        Low-Sugar & Gluten-Free Cheesecakes
+    
+    description-----
+        Welcome to our guilt-free indulgence zone, where we're redefining the art of cheesecake with our delectable low-sugar...
+    
+    button-----
+        Read More
+        
+card three----
+    subtitle-----
+        1 January, 2024 / Cheesecake
+    
+    title-----
+        Sweet Words - Customer Reviews of Cheesecakes
+    
+    description-----
+        Indulge in the rich tapestry of heartfelt stories within "Sweet Words." This curated collection of customer reviews offers a glimpse into the joy...
+    
+    button-----
+        Read More
+
+
+
+
+-------Contact Us------
+
+title---------------
+    Contact Us
+
+subtitle---------------
+    Need to get in touch with us? Either fill out the form with your inquiry or find the department phone, email you’d like to connect below
+
+
+button-----
+    Contact us now
+
+
+footer----------------
+    Copyright       2024 Dscode | All rights reserved
