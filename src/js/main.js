@@ -19,3 +19,11 @@ navLInk.forEach(link => {
         navMenu.classList.add('hidden')
     })
 });
+
+
+// header
+const header = document.getElementById('header')
+
+header.addEventListener('scroll',()=>{
+    this.scrollY > 58 ? header.classList.add('header-shadow') : header.classList.remove('header-shadow');
+})
