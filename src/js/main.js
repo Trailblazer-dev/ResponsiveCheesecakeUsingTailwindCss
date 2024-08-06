@@ -24,6 +24,6 @@ navLInk.forEach(link => {
 // header
 const header = document.getElementById('header')
 
-header.addEventListener('scroll',()=>{
+window.addEventListener('scroll',()=>{
     this.scrollY > 58 ? header.classList.add('header-shadow') : header.classList.remove('header-shadow');
 })

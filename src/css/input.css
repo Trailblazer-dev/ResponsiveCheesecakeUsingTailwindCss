@@ -11,7 +11,7 @@
     @apply bg-white text-first-color rounded-md px-2;
 }
 .header-shadow{
-    @apply shadow-md shadow-orange-300;
+    @apply shadow-md shadow-orange-200;
 }
 .title{
     @apply text-5xl font-bold text-first-color lg:leading-relaxed leading-snug  ;

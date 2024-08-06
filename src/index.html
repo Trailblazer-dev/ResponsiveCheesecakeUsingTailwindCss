@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>CheeseCake</title>
   </head>
-  <body class="bg-[url('')]">
+  <body class="bg-back bg-no-repeat bg-cover">
     <header id="header" class="sticky top-0 left-0 h-12">
-      <nav class="flex justify-between items-center bg-body-bg">
+      <nav
+        class="flex justify-between items-center bg-back bg-no-repeat bg-cover"
+      >
         <div class="w-16 h-12 ml-5">
           <img src="img/logo.png" alt="image" />
         </div>
@@ -64,7 +66,7 @@
     </header>
     <main class="font-sans">
       <!-- Home -->
-      <section class="mt-12" id="home">
+      <section class="mt-4" id="home">
         <div
           class="mx-4 my-4 flex md:flex-row flex-col justify-center items-center"
         >
@@ -97,16 +99,20 @@
 
       <!-- About -->
       <section id="about" class="my-4">
-        <div class="mx-4 flex md:flex-row flex-col justify-center items-center md:space-x-4 lg:space-x-8">
-          <div class=" w-2/5  lg:1/2 flex justify-center items-center">
+        <div
+          class="mx-4 flex md:flex-row flex-col justify-center items-center md:space-x-4 lg:space-x-8"
+        >
+          <div class="w-2/5 lg:1/2 flex justify-center items-center">
             <img src="img/about.png" alt="image" />
           </div>
-          <div class=" w-8/12 lg:w-1/2 text-center md:text-left -order-1 md:order-none">
+          <div
+            class="w-8/12 lg:w-1/2 text-center md:text-left -order-1 md:order-none"
+          >
             <h2 class="title mb-0">We Love Cheesecake</h2>
             <p class="mb-4 text-black/80 font-semibold">
               Discover Our Cheesecake Story
             </p>
-            <div class=" md:w-3/4 text-center md:text-left">
+            <div class="md:w-3/4 text-center md:text-left">
               <p class="text-sm mb-4 text-black/80">
                 At Cheesecake Love, quality is our cornerstone. Each cheesecake
                 is crafted with the finest ingredients, meticulous attention to
@@ -127,25 +133,69 @@
       </section>
 
       <!-- Menu -->
-       <section class="my-4" id="menu">
-         <div class="mx-4 flex flex-col justify-center items-center">
-          <h2 class="title text-center mt-4">Our Menu</h2>
-          <div class="">
-            <div class=" flex flex-col justify-center items-center space-y-2 bg-neutral-300 px-1 py-2">
-              <div class="">
-                <img src="img/menu-1.png" alt="image" class="">
+      <section class="my-4" id="menu">
+        <div class="mx-4 mb-4 flex flex-col justify-center items-center">
+          <h2 class="title text-center mt-4 mb-6">Our Menu</h2>
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-8 justify-items-center items-center">
+            <!-- card one -->
+            <div
+              class="flex flex-col justify-center items-center space-y-2 bg-body-bg  w-[300px] py-4 rounded-3xl shadow-xl shadow-stone-500 "
+            >
+              <div class="flex justify-center items-center w-[150px]">
+                <img src="img/menu-1.png" alt="image" class="" />
               </div>
               <div class="">
                 <h2 class="font-bold text-card-title">Blueberry Cheesecake</h2>
-                <p class="">Blueberry love, cheesecake delight!</p>
-                <p class=""><span class="">$</span>9.00</p>
+                <p class="text-sm text-first-color/70 mb-4">
+                  Blueberry love, cheesecake delight!
+                </p>
+                <p class="font-bold text-first-color text-xl">
+                  <span class="text-green-600 text-base">$</span>9.00
+                </p>
+              </div>
+            </div>
+            <!-- card two -->
+            <div
+              class="flex flex-col justify-center items-center space-y-2 bg-body-bg py-4 w-[300px] rounded-3xl shadow-xl shadow-stone-500 justify-self-center"
+            >
+              <div class="flex justify-center items-center w-[150px]">
+                <img src="img/menu-2.png" alt="image" class="" />
+              </div>
+              <div class="">
+                <h2 class="font-bold text-card-title">Biscoff Cheesecake</h2>
+                <p class="text-sm text-first-color/70 mb-4">
+                  Biscoff adores cheesecake magic
+                </p>
+                <p class="font-bold text-first-color text-xl">
+                  <span class="text-green-600 text-base">$</span>11.00
+                </p>
+              </div>
+            </div>
+            <!-- card three -->
+            <div
+              class="flex flex-col justify-center items-center space-y-2 bg-body-bg py-4 w-[300px] rounded-3xl shadow-xl shadow-stone-500"
+            >
+              <div class="flex justify-center items-center w-[150px]">
+                <img src="img/menu-3.png" alt="image" class="" />
+              </div>
+              <div class="">
+                <h2 class="font-bold text-card-title">Chocolate Cheesecake</h2>
+                <p class="text-sm text-first-color/70 mb-4">
+                  Cherish Chocolate, relish cheesecake magic!
+                </p>
+                <p class="font-bold text-first-color text-xl">
+                  <span class="text-green-600 text-base">$</span>10.00
+                </p>
               </div>
             </div>
           </div>
-         </div>
-       </section>
+        </div>
+      </section>
 
       <!-- Blog -->
+       <section class="my-4" id="blog">
+        
+       </section>
 
       <!-- Contact -->
     </main>
