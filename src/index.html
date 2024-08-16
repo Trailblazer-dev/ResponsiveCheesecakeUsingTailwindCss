@@ -13,9 +13,9 @@
     <title>CheeseCake</title>
   </head>
   <body class="bg-back bg-no-repeat bg-cover">
-    <header id="header" class="sticky top-0 left-0 h-12">
+    <header id="header" class="sticky top-0 left-0 h-12 z-50">
       <nav
-        class="flex justify-between items-center bg-back bg-no-repeat bg-cover"
+        class="flex justify-between items-center bg-back bg-no-repeat bg-cover "
       >
         <div class="w-16 h-12 ml-5">
           <img src="img/logo.png" alt="image" />
@@ -28,7 +28,7 @@
           <ul
             class="flex flex-row items-center space-x-5 md:space-x-12 justify-center text-lg font-bold"
           >
-            <li class="link active-link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#home">Home</a></li>
             <li class="link"><a href="#about">About Us</a></li>
             <li class="link"><a href="#menu">Menu</a></li>
             <li class="link"><a href="#blog">Blog</a></li>
@@ -57,11 +57,11 @@
           </div>
         </div>
         <div
-          class="border-2 border-first-color mr-10 sm:mr-4 px-4 py-1.5 rounded-3xl"
+          class="border-2 border-first-color mr-10 sm:mr-4 px-4 py-1.5 rounded-3xl cursor-pointer"
         >
           sign up
         </div>
-        <i class="ri-menu-line text-lg mr-3 sm:hidden" id="menu"></i>
+        <i class="ri-menu-line text-lg mr-3 sm:hidden cursor-pointer" id="menu"></i>
       </nav>
     </header>
     <main class="font-sans">
@@ -98,7 +98,7 @@
       </section>
 
       <!-- About -->
-      <section id="about" class="my-4">
+      <section id="about" class="mt-10">
         <div
           class="mx-4 flex md:flex-row flex-col justify-center items-center md:space-x-4 lg:space-x-8"
         >
@@ -133,7 +133,7 @@
       </section>
 
       <!-- Menu -->
-      <section class="my-4" id="menu">
+      <section class="mt-32 mb-40" id="menu">
         <div class="mx-4 mb-4 flex flex-col justify-center items-center">
           <h2 class="title text-center mt-4 mb-6">Our Menu</h2>
           <div
@@ -195,7 +195,7 @@
       </section>
 
       <!-- Blog -->
-      <section class="my-6" id="blog">
+      <section class="my-52" id="blog">
         <div class="mx-4">
           <div class="text-center mb-4">
             <h2 class="title mt-8">Our Blog</h2>
@@ -290,7 +290,7 @@
       </section>
 
       <!-- Contact -->
-      <section class="my-4" id="contact">
+      <section class="my-52" id="contact">
         <div class="mx-4 grid md:grid-cols-2 justify-items-center items-center">
           <div class="md:ml-10 mb-4 text-center md:text-left">
             <h2 class="title">Contact Us</h2>
@@ -342,33 +342,37 @@
     <footer class="my-4">
       <div class="mx-4 flex flex-col md:flex-row justify-center gap-9 items-center">
         <div class="flex justify-center items-center space-x-4 lg:space-x-10">
-          <a
+          <a 
+          title="Link to Facebook"
             href="http://www.facebook.com/"
             target="_blank"
             rel="noopener noreferrer"
             class="hover:bg-orange-400 hover:text-white rounded-full bg-white  flex items-center justify-center overflow-hidden "
-            ><i class="ri-facebook-fill text-lg p-2 "></i
+            ><i class="ri-facebook-fill text-lg px-2 py-1 "></i
           ></a>
           <a
+          title="LInk to instagram"
             href="http://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
             class="hover:bg-orange-400 hover:text-white rounded-full bg-white p-1"
-            ><i class="ri-instagram-line"></i
+            ><i class="ri-instagram-line text-lg px-2 py-1"></i
           ></a>
           <a
+          title="Link to X"
             href="http://www.x.com/"
             target="_blank"
             rel="noopener noreferrer"
             class="hover:bg-orange-400 hover:text-white rounded-full bg-white p-1"
-            ><i class="ri-twitter-x-line"></i
+            ><i class="ri-twitter-x-line text-lg px-2 py-1"></i
           ></a>
           <a
+          title="LInk to youtube"
             href="http://www.youtube.com/"
             target="_blank"
             rel="noopener noreferrer"
             class="hover:bg-orange-400 hover:text-white rounded-full bg-white p-1"
-            ><i class="ri-youtube-line"></i
+            ><i class="ri-youtube-line text-lg px-2 py-1"></i
           ></a>
         </div>
         <div class="">Copyright &copy; 2024 Dscode | All rights reserved</div>
