@@ -855,7 +855,7 @@ video {
 }
 
 .bg-back {
-  background-image: url('/src/img/background.png');
+  background-image: url('../img/background.png');
 }
 
 .bg-cover {
